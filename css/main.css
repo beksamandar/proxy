@@ -858,6 +858,65 @@ footer .copyright{
 }
 
 @media (max-width: 768px){  /*standart Laptop*/
+    .hero .row img{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .aviable .block_title{
+        display: block;
+        margin-bottom: 17px;
+    }
+
+    .navbar-brand img{
+        max-width: 120px;
+    }
+    .countries .form_result .result_item {
+        width: calc(50% - 5px);
+    }
+
+
+    .types .type_item{
+        margin-bottom: 50px;
+    }
+
+    .buy .buy_item{
+        width: 100%;
+    }
+
+    .payment .payment_block{
+        flex-direction: column;
+        gap: 31px 0;
+    }
+
+    footer .logo{
+        text-align: center;
+    }
+
+    footer .contact{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    footer .list{
+        margin-bottom: 50px;
+    }
+
+    .inner_page .control_title .btn{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .inner_page .faq_items{
+        display: grid;
+        justify-content: space-evenly;
+    }
+
+    .inner_page .coll img{
+        width: 100%;
+        height: 100%;
+    }
+
     
 }
 
