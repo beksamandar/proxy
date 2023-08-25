@@ -914,8 +914,7 @@ footer .copyright{
 
     .inner_page .faq_items{
         display: grid;
-        width: 100%;
-        padding-left: 3px;
+        justify-content: space-evenly;
     }
 
     .inner_page .coll img{
