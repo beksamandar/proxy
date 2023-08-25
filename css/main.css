@@ -880,6 +880,7 @@ footer .copyright{
         width: calc(50% - 5px);
     }
 
+
     .types .type_item{
         margin-bottom: 50px;
     }
@@ -904,6 +905,22 @@ footer .copyright{
 
     footer .list{
         margin-bottom: 50px;
+    }
+
+    .inner_page .control_title .btn{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .inner_page .faq_items{
+        display: grid;
+        width: 100%;
+        padding-left: 3px;
+    }
+
+    .inner_page .coll img{
+        width: 100%;
+        height: 100%;
     }
 
 
