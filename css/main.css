@@ -828,11 +828,11 @@ footer .copyright{
 
 /* MEDIA */
 
-@media (min-width: 1400px){  /*standart Laptop*/
+@media (min-width: 1200px){  /*standart Laptop*/
     
 }
 
-@media (max-width: 1400px){  /*standart Laptop*/
+@media (max-width: 1024px){  /*standart Laptop*/
     
 }
 
@@ -847,7 +847,7 @@ footer .copyright{
     }
 
     .countries .form_result .result_item {
-        width: calc(33.3333% - 5px);
+        width: calc(49.3333% - 14px)
     }
 
     header .navbar-nav{
@@ -858,14 +858,32 @@ footer .copyright{
 }
 
 @media (max-width: 768px){  /*standart Laptop*/
+
+    .hero {
+        margin-bottom: 50px;
+    }
+
     .hero .row img{
         margin-top: 50px;
         width: 100%;
     }
 
+    .hero .hero_title {
+        margin-top: 50px;
+    }
+
     .aviable .block_title{
-        display: block;
+        
         margin-bottom: 17px;
+    }
+
+    .about_aviable{
+        justify-content: space-evenly!important;
+    }
+
+    .des_aviable{
+        display: flex;
+        justify-content: center;
     }
 
     .navbar-brand img{
@@ -884,6 +902,10 @@ footer .copyright{
         width: 100%;
     }
 
+    .buy .buys{
+        width: 60%;
+    }
+
     .payment .payment_block{
         flex-direction: column;
         gap: 31px 0;
@@ -900,6 +922,10 @@ footer .copyright{
 
     footer .list{
         margin-bottom: 50px;
+    }
+
+    footer .about{
+        text-align: center;
     }
 
     .inner_page .control_title .btn{
@@ -922,14 +948,8 @@ footer .copyright{
 
 @media (max-width: 576px){  /*standart Laptop*/
 
-    .hero .row img{
-        margin-top: 50px;
-        width: 100%;
-    }
-
-    .aviable .block_title{
-        display: block;
-        margin-bottom: 17px;
+    .col-md-3 .row{
+        display: contents;
     }
 
     .navbar-brand img{
@@ -940,6 +960,28 @@ footer .copyright{
     }
 
 
+    .hero .row img{
+        margin-top: 50px;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .hero .hero_text{
+        margin-top: 50px;
+    }
+    .hero .hero_title{
+        margin-top: 50px;
+    }
+
+    .aviable .aviable_list{
+        justify-content: center!important
+    }
+
+    .aviable .block_title{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 22px;
+    }
     .types .type_item{
         margin-bottom: 50px;
     }
@@ -947,6 +989,20 @@ footer .copyright{
     .buy .buy_item{
         width: 100%;
     }
+
+    .buy .buys{
+        width: 66%;
+    }
+
+    /* .buy .buy_item .buy_description{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .buy .buy_item .buy_card{
+        display: flex;
+        justify-content: space-around;
+    } */
 
     .payment .payment_block{
         flex-direction: column;
@@ -984,7 +1040,7 @@ footer .copyright{
 
 }
 
-@media (max-width: 420px){  /*standart Laptop*/
+@media (max-width: 480px){  /*Mobile*/
     .countries .form_result .result_item {
         width: 100%;
     }
@@ -993,4 +1049,13 @@ footer .copyright{
         max-width: 270px;
         margin: 0 auto 25px auto;
     }
+
+    .hero .hero_title{
+        margin-top: 50px;
+    }
+
+    .buy .buys{
+        width: 100%;
+    }
+
 }
